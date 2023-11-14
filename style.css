@@ -1,0 +1,455 @@
+.centrar {
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.color-negro{
+    background-color: black;
+    color: white;
+}
+
+.color-azulF{
+    background-color: #038bbb;
+    color: white;
+}
+
+.servicio-hover:hover{
+    background-color: #001948 ;
+}
+
+.a-hover:hover{
+    opacity: 0.9;
+}
+
+.borde{
+    border-style: inset;
+    border-color: #004089;
+    border-width: 0.1rem;
+}
+
+.color-blanco{
+    background-color: white;
+    color: black;
+    border-radius: 8px;
+}
+
+.color-morado {
+    background-color: #4d006c;
+    color: white;
+}
+
+.color-fondo{
+    background-color: whitesmoke;
+}
+
+.color-naranja {
+    background-color: #bd4d00;
+    color: white;
+}
+
+.none{
+    text-decoration: none;
+}
+
+.color-azul{
+    background-color:lightblue;
+    color: black;
+}
+
+.fondo {
+    background-color: #0a2859;
+    color: white;   
+    border-radius: 8px; 
+}
+
+.color-cafe {
+    background-color: #332E30;
+    color: white;
+}
+
+.color-gris {
+    background-color: #1d457a;
+    color: white;
+    border-radius: 4px;
+}
+
+.color-azul-bajo {
+    background-color: #eef7ff;
+    color: black;
+}
+
+/* Navbar */
+
+.logo {
+    width: 80px;
+}
+
+.posicion-logo {
+    position: relative;
+    top: 10px;
+    left: 300px;
+}
+
+.collapse {
+    height: 80px;
+}
+
+.collapse a {
+    padding: 4px 8px;
+}
+
+.collapse a:hover {
+    background-color: #025A83;
+    color: white;
+    border-radius: 5px;
+}
+
+.collapse a {
+    border-radius: 5px;
+    margin: 5px;
+}
+
+a.ubicacion {
+    color: #003674;
+    font-weight: bold;
+}
+
+/* Principal */
+
+.imagen-principal {
+    width: 850px;
+}
+
+.seccion-principal {
+    margin-top: 40px;
+    align-items: center;
+    row-gap: 40px;
+    text-align: center;
+}
+
+.parafo-principal {
+    font-size: 4rem;
+    font-family: 'Bacasime Antique', serif;
+}
+
+.container p {
+    width: 75%;
+}
+
+
+
+
+/* Tarjetas */
+
+.columna {
+    height: 200px;
+    border-radius: 6px;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+
+.parrafo-tarjeta1 {
+    font-size: 12px;
+    text-align: center;
+}
+
+.imagen-tarjeta {
+    width: 100px;
+    padding-top: 22px;
+}
+
+
+
+
+/* Pie */
+
+.pie {
+    margin-top: 100px;
+    padding: 10px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.bi-facebook {
+    font-size: 60px;
+    color: #004089;
+    margin: auto;
+}
+
+.bi-whatsapp {
+    font-size: 60px;
+    color: #23A416;
+    margin-left: 100px;
+    margin: auto;
+}
+
+.texto-contacto {
+    width: 500px;
+}
+
+/* Tradiciones */
+
+.imagen-tres img {
+    width: 400px;
+    padding-top: 40px;
+}
+
+.centrar h2 {
+    font-family: 'Bacasime Antique', serif;
+    font-size: 45px;
+}
+
+.centrar p {
+    margin: auto;
+}
+
+.dia-muertos {
+    margin-top: 80px;
+    background-color: #7205c8;
+    color: white;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.pan {
+    padding-top: 80px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+
+.cuatro-imagenes img {
+    width: 250px;
+    padding: 6px;
+}
+
+/* Sitios de Interes */
+
+.imagen-mirador {
+    width: 80%;
+}
+
+.font-letra {
+    font-family: 'Bacasime Antique', serif;
+}
+
+
+
+.contenedor-mirador {
+    border: 4px solid white;
+    width: 1100px;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    color: white;
+    margin: auto;
+}
+
+img.carr {
+    width: 1100px;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: carrusel 15s infinite;
+}
+
+#img1 {
+    left: 0;
+    animation: unset;
+}
+
+#img2 {
+    left: -1100px;
+}
+
+#img3 {
+    left: -2200px;
+}
+
+#img4 {
+    left: -3300px;
+}
+
+@keyframes carrusel {
+    0% {
+        transform: translateX(0);
+    }
+
+    20% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(100%);
+    }
+
+    45% {
+        transform: translateX(100%);
+    }
+
+    50% {
+        transform: translateX(200%);
+    }
+
+    70% {
+        transform: translateX(200%);
+    }
+
+    75% {
+        transform: translateX(300%);
+    }
+
+    90% {
+        transform: translateX(300%);
+    }
+
+    95% {
+        transform: translateX(400%);
+    }
+
+    100% {
+        transform: translateX(400%);
+    }
+}
+
+
+
+
+.contenedor {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.senderismo-tamanio {
+    padding-top: 50px;
+    width: 500px;
+}
+
+.comedor {
+    padding-top: 50px;
+    width: 100px;
+    background-color: whitesmoke;
+}
+
+
+
+.imagen-sendero {
+    width: 40%;
+    max-height: 350px;
+}
+
+.imagen-lavadero {
+    width: 60%;
+}
+
+.fondo-lavadero {
+    background-color: #bbbbbb;
+}
+
+.imagen-rio {
+    width: 40%;
+}
+
+/* Pan Section */
+.img-pan {
+    min-height: 200px;
+    max-height: 235px;
+    width: 400px;
+}
+
+.seleccionar {
+    outline: 3px solid red;
+}
+
+.pan-container {
+    background-color: black;
+}
+
+/* Historia */
+.alto-historia {
+    height: 80px;
+}
+
+.fondo-licencia{
+    background-color: #012e58;
+    color: white;
+}
+
+
+
+.fondo-historia {
+    background-color: #012e58;
+    color: white;
+    width: 100%;
+}
+
+.tamanio-letra {
+    font-size: 30px;
+}
+
+.imagen-iglesia {
+    width: 400px;
+}
+
+.ancho-historia {
+    width: 60%;
+}
+
+.imagen-clima {
+    width: 300px;
+    max-height: 200px;
+}
+
+.imagen-rancho {
+    width: 400px;
+    height: 300px;
+}
+
+/* Infraestructura */
+
+.imagen-infraestructura {
+    width: 200px;
+}
+
+.imagen-infraestructura-salud {
+    width: 400px;
+}
+
+.imagen-economia {
+    width: 400px;
+}
+
+/* Galeria */
+div.cont {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: white;
+    width: 1300px;
+    margin: auto;
+    margin-bottom: 4%;
+}
+
+img:hover.carrera {
+    opacity: 0.5;
+}
+
+.item img {
+    width: 200px;
+}
+
+div.item {
+    margin: 8px;
+    color: black;
+    text-align: center;
+    padding: 0.5em;
+}
+
+h1.cabeza {
+    text-align: center;
+    color: #660000;
+}
